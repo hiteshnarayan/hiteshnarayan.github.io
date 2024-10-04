@@ -1,14 +1,12 @@
-- title: General Information
+- title: Resume
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Hitesh Narayana
     - name: Location
       value: Los Angeles, CA 90007
     - name: Contact
-      value: "+1 (213)68-12369 | [hiteshna@usc.edu](mailto:hiteshna@usc.edu)"
-    - name: Profiles
-      value: "[LinkedIn](https://linkedin.com/in/hiteshnarayan/) | [GitHub](https://github.com/Hit07)"
+      value: "mailto:hiteshna@usc.edu"
 
 - title: Education
   type: time_table
@@ -19,7 +17,7 @@
       description:
         - GPA: 3.5/4.0
         - Coursework: Analysis of Algorithms, Database Systems, Machine Learning, Information Retrieval
-    - title: Bachelor of Technology in Information Science and Engineering
+    - title: B.E in Information Science
       institution: Bangalore Institute of Technology, Bangalore, India
       year: Aug 2019 – Jul 2023
       description:
@@ -53,19 +51,3 @@
     - Big Data: Apache Spark, Hadoop, Dash
     - Cloud: AWS (S3, Glue), Google Cloud, Microsoft Azure
     - Technologies: Git, RESTful APIs, CUDA, Flask, Power BI, Tableau, DAX
-
-- title: Projects
-  type: time_table
-  contents:
-    - title: FoodVision
-      year: Jun 2024 – Aug 2024
-      description:
-        - Built a deep learning image recognition system for food classification.
-        - Engineered a custom CNN model (TinyVGG) surpassing baseline accuracy by 20%.
-        - Improved model performance through hyperparameter tuning techniques.
-    - title: Predictive Modelling Using Multivariate Regression
-      year: Apr 2024 – May 2024
-      description:
-        - Developed a predictive algorithm for residential property prices in Boston.
-        - Constructed a multivariate regression model with an R-squared score of 79.3%.
-        - Implemented logit transformation techniques to increase model accuracy by 20%.
