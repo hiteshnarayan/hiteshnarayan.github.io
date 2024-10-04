@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Hit07
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Hit07/ML-DL-Torch
+  - Hit07/Data_Science
+  - Hit07/Minor-Project-Python
