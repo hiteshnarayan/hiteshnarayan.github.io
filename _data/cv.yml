@@ -2,96 +2,70 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Hitesh Narayana
+    - name: Location
+      value: Los Angeles, CA 90007
+    - name: Contact
+      value: +1 (213)68-12369 | [hiteshna@usc.edu](mailto:hiteshna@usc.edu)
+    - name: Profiles
+      value: [LinkedIn](https://linkedin.com/in/hiteshnarayan/) | [GitHub](https://github.com/Hit07)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Computer Science
+      institution: University of Southern California, Los Angeles, CA
+      year: Jan 2024 – Expected Dec 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 3.5/4.0
+        - Coursework: Analysis of Algorithms, Database Systems, Machine Learning, Information Retrieval
+    - title: Bachelor of Technology in Information Science and Engineering
+      institution: Bangalore Institute of Technology, Bangalore, India
+      year: Aug 2019 – Jul 2023
       description:
-        - Description 1.
-        - Description 2.
+        - GPA: 9.0/10.0
+        - Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: HUMANS Lab, USC
+      year: Jul 2024 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Collaborated with a team to explore social media discourse effects on public opinion.
+        - Developed an ETL pipeline for analyzing over 5M+ tweets.
+        - Implemented a distributed computing framework using Apache Spark.
+    - title: Business Analyst
+      institution: Genpact, India
+      year: Jul 2023 – Dec 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Optimized SQL queries and enhanced data retrieval speed.
+        - Created automated reporting solutions using Power BI and DAX.
+        - Facilitated AWS Glue ETL pipelines for serverless data transformation.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Languages: Python (Proficient), SQL, C++, R
+    - Machine Learning: PyTorch, TensorFlow, Keras, Scikit-learn, NLTK
+    - Libraries: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels
+    - Big Data: Apache Spark, Hadoop, Dash
+    - Cloud: AWS (S3, Glue), Google Cloud, Microsoft Azure
+    - Technologies: Git, RESTful APIs, CUDA, Flask, Power BI, Tableau, DAX
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: FoodVision
+      year: Jun 2024 – Aug 2024
+      description:
+        - Built a deep learning image recognition system for food classification.
+        - Engineered a custom CNN model (TinyVGG) surpassing baseline accuracy by 20%.
+        - Improved model performance through hyperparameter tuning techniques.
+    - title: Predictive Modelling Using Multivariate Regression
+      year: Apr 2024 – May 2024
+      description:
+        - Developed a predictive algorithm for residential property prices in Boston.
+        - Constructed a multivariate regression model with an R-squared score of 79.3%.
+        - Implemented logit transformation techniques to increase model accuracy by 20%.
