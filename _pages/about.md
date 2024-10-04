@@ -12,7 +12,6 @@ profile:
     <p><a href="mailto:hiteshna@usc.edu">hiteshna@usc.edu</a></p>
     <p><a href="https://linkedin.com/in/hiteshnarayan/">LinkedIn</a></p>
     <p><a href="https://github.com/Hit07">GitHub</a></p>
-
 social: true # includes social icons at the bottom of the page
 ---
 

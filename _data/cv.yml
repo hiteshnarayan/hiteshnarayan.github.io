@@ -6,9 +6,9 @@
     - name: Location
       value: Los Angeles, CA 90007
     - name: Contact
-      value: +1 (213)68-12369 | [hiteshna@usc.edu](mailto:hiteshna@usc.edu)
+      value: "+1 (213)68-12369 | [hiteshna@usc.edu](mailto:hiteshna@usc.edu)"
     - name: Profiles
-      value: [LinkedIn](https://linkedin.com/in/hiteshnarayan/) | [GitHub](https://github.com/Hit07)
+      value: "[LinkedIn](https://linkedin.com/in/hiteshnarayan/) | [GitHub](https://github.com/Hit07)"
 
 - title: Education
   type: time_table
