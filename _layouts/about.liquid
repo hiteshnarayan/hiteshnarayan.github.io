@@ -41,28 +41,28 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-    {% comment %}{% if page.news and site.announcements.enabled %}{% endcomment %}
-      {% comment %}<h2>{% endcomment %}
-        {% comment %}<a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>{% endcomment %}
-      {% comment %}</h2>{% endcomment %}
-      {% comment %}{% include news.liquid limit=true %}{% endcomment %}
-    {% comment %}{% endif %}{% endcomment %}
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
 
-    {% comment %}<!-- Latest posts -->{% endcomment %}
-    {% comment %}{% if site.latest_posts.enabled %}{% endcomment %}
-      {% comment %}<h2>{% endcomment %}
-        {% comment %}<a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>{% endcomment %}
-      {% comment %}</h2>{% endcomment %}
-      {% comment %}{% include latest_posts.liquid %}{% endcomment %}
-    {% comment %}{% endif %}{% endcomment %}
+    <!-- Latest posts -->
+    {% if site.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
 
     <!-- Selected papers -->
-    {% comment %}{% if page.selected_papers %}{% endcomment %}
-      {% comment %}<h2>{% endcomment %}
-        {% comment %}<a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>{% endcomment %}
-      {% comment %}</h2>{% endcomment %}
-      {% comment %}{% include selected_papers.liquid %}{% endcomment %}
-    {% comment %}{% endif %}{% endcomment %}
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
 
     <!-- Social -->
     {% if page.social %}
