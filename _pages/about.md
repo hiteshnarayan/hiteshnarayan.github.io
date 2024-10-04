@@ -9,9 +9,14 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><a href="mailto:hiteshna@usc.edu">hiteshna@usc.edu</a></p>
-    <p><a href="https://linkedin.com/in/hiteshnarayan/">LinkedIn</a></p>
-    <p><a href="https://github.com/Hit07">GitHub</a></p>
+    <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <p>Los Angeles, CA 90007</p>
+      <p>+1 (213)68-12369</p>
+      <p><a href="mailto:hiteshna@usc.edu" style="text-decoration: none; color: #D44638;"><i class="fas fa-envelope"></i> hiteshna@usc.edu</a></p>
+      <p><a href="https://linkedin.com/in/hiteshnarayan/" style="text-decoration: none; color: #0077B5;"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+      <p><a href="https://github.com/Hit07" style="text-decoration: none; color: #333;"><i class="fab fa-github"></i> GitHub</a></p>
+    </div>
+
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -21,7 +26,7 @@ My research interests are broadly in efficiency and interpretability in machine 
 
 ## Education
 
-**University of Southern California** | Los Angeles, CA  
+**[University of Southern California](https://www.usc.edu/)** | Los Angeles, CA  
 *Master of Science in Computer Science* | Jan 2024 – Expected Dec 2025
 
 - GPA: 3.5/4.0
