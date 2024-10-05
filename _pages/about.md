@@ -9,12 +9,23 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <p><a href="mailto:hiteshna@usc.edu" style="text-decoration: none; color: #D44638;"><i class="fas fa-envelope"></i> hiteshna@usc.edu</a></p>
-      <p><a href="https://linkedin.com/in/hiteshnarayan/" style="text-decoration: none; color: #0077B5;"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-      <p><a href="https://github.com/Hit07" style="text-decoration: none; color: #333;"><i class="fab fa-github"></i> GitHub</a></p>
+    <div style="background-color: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <p>
+    <a href="mailto:hiteshna@usc.edu" style="text-decoration: none; color: #D44638;">
+      <i class="fas fa-envelope"></i> hiteshna@usc.edu
+    </a>
+    </p>
+    <p>
+    <a href="https://linkedin.com/in/hiteshnarayan/" style="text-decoration: none; color: #0077B5;">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    </p>
+    <p>
+    <a href="https://github.com/Hit07" style="text-decoration: none; color: #333;">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    </p>
     </div>
-
 social: true # includes social icons at the bottom of the page
 ---
 
