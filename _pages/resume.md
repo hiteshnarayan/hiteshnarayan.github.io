@@ -7,6 +7,6 @@ nav: true
 
 
 <div class="content">
-  <iframe  height="1000px" width="1000px" src="../assets/pdf/Hitesh%20Narayana.pdf">Resume</iframe>
+  <iframe  height="1000px" width="1000px" src="../assets/pdf/Hitesh%20Narayana.pdf"></iframe>
 </div>
 
