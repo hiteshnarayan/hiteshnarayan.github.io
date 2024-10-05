@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multiclass Image Classification using TinyVGG
-description: with background image
+description: Deep Learning Image Recognition System for Food Classification
 img: assets/img/foodvision.jpg
 importance: 1
 category: Personal
