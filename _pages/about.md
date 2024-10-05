@@ -20,11 +20,11 @@ profile:
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
       </p>
-      <p>
-        <a href="https://github.com/Hit07" style="text-decoration: none; color: #FFFFFF;">
-            <i class="fab fa-github"></i> GitHub
-        </a>
-      </p>
+    <p>
+      <a href="https://github.com/Hit07" style="text-decoration: none; color: #808080;">
+          <i class="fab fa-github"></i> GitHub
+      </a>
+    </p>
     </div>
 social: true # includes social icons at the bottom of the page
 ---

@@ -40,15 +40,14 @@ extensive hyperparameter tuning
         transforms.ToTensor()
     ])
     ```
-    <div class="row">
-          <div class="col-sm mt-3 mt-md-0">
-              {% include figure.liquid loading="eager" path="../assets/img/foodvision1.jpg" title="Data Transformation" class="img-fluid rounded z-depth-1" %}
-          </div>
-       
-    </div>>
-    <div class="caption">
-        Data Transformation.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/foodvision_1.jpg" title="Data Tranformation" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Data Transformation and Data Augmentation.
+</div>
 
 #### Model Definition
 
@@ -85,15 +84,15 @@ class FoodVisionV0(nn.Module):
    handling and model tuning.
 3. **Hyperparameter Tuning:** Conducted extensive hyperparameter tuning using TensorFlow and Keras, resulting in a 15%
    accuracy boost while reducing training time by 40%.
-      <div class="row">
-          <div class="col-sm mt-3 mt-md-0">
-              {% include figure.liquid loading="eager" path="../assets/img/foodvision2.jpg" title="Model Development" class="img-fluid rounded z-depth-1" %}
-          </div>
-       
-    </div>>
-    <div class="caption">
-       Model Performance.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/foodvision_2.jpg" title="Model Training" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Model Training and Evaluation.
+</div>
 
 
 ### Challenges and Solutions
