@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Statistical Analysis 
+title: Statistical Analysis of Childbed Fever
 description: Data analysis project investigating the historical impact of handwashing on reducing childbed fever.
 img: assets/img/childbed_fever.jpg
 importance: 4
@@ -41,11 +41,11 @@ This project investigates the impact of handwashing on reducing death rates due 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/kde_handwashing.jpg" title="KDE" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Kde.jpg" title="KDE plots" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    KDE plots showing the distribution of death rates before and after handwashing.
+    Kernel Density Estimate (KDE) plots showing the distribution of death rates.
 </div>
 
 - **Histograms:** Visualized death rate distributions before and after handwashing.
@@ -80,5 +80,3 @@ The analysis shows a significant reduction in death rates after introducing hand
 ### Conclusion
 
 The analysis provides strong evidence supporting Dr. Semmelweis's hypothesis that handwashing significantly reduces death rates due to childbed fever. This finding underscores the importance of hygiene practices in medical settings.
-
-
