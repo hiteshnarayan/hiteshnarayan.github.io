@@ -1,16 +1,6 @@
 ---
 layout: page
-title: Multiclass Image Classification using TinyVGG
-description: Deep Learning Image Recognition System for Food Classification
-img: assets/img/foodvision.jpg
-importance: 1
-category: Personal
-related_publications: false
----
-
----
-layout: page
-title: Multiclass Image Classification using TinyVGG
+title: Multiclass Image Classification using CNN
 description: Deep Learning Image Recognition System for Food Classification
 img: assets/img/foodvision.jpg
 importance: 1
@@ -26,7 +16,6 @@ and the importance of efficient learning techniques in machine learning. The pro
 improvements in model accuracy and efficiency through innovative techniques such as custom CNN architectures and
 extensive hyperparameter tuning
 
-## Project Overview
 
 ### Dataset Preparation
 
@@ -53,7 +42,7 @@ extensive hyperparameter tuning
     ```
     <div class="row">
           <div class="col-sm mt-3 mt-md-0">
-              {% include figure.liquid loading="eager" path="assets/img/foodvision1.jpg" title="Data Transformation" class="img-fluid rounded z-depth-1" %}
+              {% include figure.liquid loading="eager" path="../assets/img/foodvision1.jpg" title="Data Transformation" class="img-fluid rounded z-depth-1" %}
           </div>
        
     </div>>
@@ -98,7 +87,7 @@ class FoodVisionV0(nn.Module):
    accuracy boost while reducing training time by 40%.
       <div class="row">
           <div class="col-sm mt-3 mt-md-0">
-              {% include figure.liquid loading="eager" path="assets/img/foodvision2.jpg" title="Model Development" class="img-fluid rounded z-depth-1" %}
+              {% include figure.liquid loading="eager" path="../assets/img/foodvision2.jpg" title="Model Development" class="img-fluid rounded z-depth-1" %}
           </div>
        
     </div>>

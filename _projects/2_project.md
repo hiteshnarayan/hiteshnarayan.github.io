@@ -1,81 +1,67 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Boston Housing Price Prediction
+description: A comprehensive analysis and prediction of housing prices using multivariable regression.
+img: assets/img/boston.jpg
 importance: 2
-category: work
+category: Personal
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Boston Housing Price Prediction
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project involves predicting housing prices in Boston using a multivariable regression model. The project demonstrates the application of data exploration, model development, evaluation, and optimization techniques to achieve accurate predictions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Dataset Exploration and Visualization
+
+- **Exploration:** Analyzed the Boston Housing dataset to understand its structure and key features impacting housing prices.
+- **Visualization:** Utilized Seaborn's `pairplot()` to visualize relationships between features such as the number of rooms (RM), distance to employment centers (DIS), socio-economic status (LSTAT), and school quality metrics (PTRATIO) against the target variable (PRICE).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/boston_pairplot.jpg" title="Pairplot of Features" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Pairplot illustrating relationships between key features and housing prices.
 </div>
+
+### Data Preparation and Model Development
+
+- **Data Splitting:** Split the dataset into training and testing sets using `train_test_split()` from sklearn to ensure robust model evaluation.
+- **Model Development:** Developed a multivariable regression model leveraging significant features such as RM, DIS, LSTAT, and PTRATIO.
+
+### Model Evaluation and Interpretation
+
+- **Evaluation Metrics:** Assessed model performance using R-squared values for both training and testing datasets.
+- **Interpretation:** Analyzed regression coefficients to understand the impact of each feature on housing prices.
+- **Residual Analysis:** Investigated residuals to identify patterns and assess model performance.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/boston_residuals.jpg" title="Residual Plot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Residual plot showing the distribution of errors in predictions.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Model Improvement and Optimization
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Data Transformations:** Applied log transformations to improve model accuracy and meet regression assumptions.
+- **Iterative Refinement:** Refined the model based on insights from residual analysis and coefficient interpretation.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Prediction and Deployment
 
-{% raw %}
+- **Scenario Analysis:** Specified input values for various features to predict home prices under hypothetical scenarios.
+- **Deployment:** Utilized the trained model to make predictions on new data points, demonstrating practical applicability.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Learning Outcomes
 
-{% endraw %}
+- Enhanced skills in data exploration, visualization, and preprocessing.
+- Developed expertise in building and interpreting multivariable regression models.
+- Gained experience in model evaluation, optimization, and deployment.
+
+## Conclusion
+
+This project showcases a comprehensive approach to predicting housing prices using multivariable regression. By employing advanced data analysis techniques, we achieved significant insights into factors affecting housing prices in Boston.
