@@ -5,8 +5,6 @@ permalink: /resume/
 nav: true
 ---
 
-This page displays my resume. Click the button below to view it in full screen.
-
-[View Full Screen](resume.liquid.html){: .btn .btn-primary}
-
-[Download PDF](assets/pdf/Hitesh%20Narayana.pdf){: .btn .btn-secondary}
+<div class="content">
+  <iframe src="../assets/pdf/Hitesh%20Narayana.pdf" width="100%" height="100%"></iframe>
+</div>
