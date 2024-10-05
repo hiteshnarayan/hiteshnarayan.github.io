@@ -8,7 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
+  more_info: > 
+    <p> </p>
+    <p> </p>
 social: true # includes social icons at the bottom of the page
 ---
 
