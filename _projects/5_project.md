@@ -2,7 +2,7 @@
 layout: page
 title: Statistical Analysis of Childbed Fever
 description: Data analysis project investigating the historical impact of handwashing on reducing childbed fever.
-img: assets/img/childbed_fever.jpg
+img: assets/img/Childbed_fever.jpg
 importance: 4
 category: Personal
 giscus_comments: true
