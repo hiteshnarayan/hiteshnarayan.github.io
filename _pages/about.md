@@ -19,15 +19,12 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I'm a Master's student in Computer Science at the [University of Southern California](https://www.usc.edu/).
-I'm working as a Research Assistant at the [HUMANS Lab](http://www.emilio.ferrara.name/code/) at USC,
-focusing on data analysis, web scraping, and processing large datasets.
-Previously, I worked as a Business Analyst at Genpact, India,
-where I optimized SQL queries, created automated reporting solutions using Power BI and DAX,
-and facilitated AWS Glue ETL pipelines for serverless data transformation.
+As a Research Assistant at the [HUMANS Lab](http://www.emilio.ferrara.name/code/) at USC,  I collaborate with [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/)to analyze social
+media discourse and its effects on public opinion. My role involves architecting data pipelines, conducting advanced data analysis, and developing scalable solutions for processing large-scale datasets.
 
-My research interests are broadly in efficiency and interpretability in machine learning.
-I am currently working with [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/)
-on analyzing social media discourse and its effects on public opinion.
-Previously, I worked on various other projects in data science and machine learning.
-You can find more details about my experience and skills in my [Resume](https://drive.google.com/file/d/1xtPTnox3PB5U5IT1zGHbpeNkKsiIKGuG/view?usp=drive_link).
+Previously, as a Business Analyst at Genpact, India, I specialized in developing automated reporting solutions using SAS. 
+My focus was on enhancing data visualization capabilities and streamlining analytical processes, which improved decision-making efficiency for stakeholders.
 
+My research interests center on improving efficiency and interpretability in machine learning systems. 
+Through various projects in data science and machine learning,
+I've consistently worked on developing innovative solutions that bridge the gap between complex algorithms and practical applications.
