@@ -2,7 +2,7 @@
 layout: page
 title: 'Resume'
 permalink: /resume/
-nav: true
+nav: false
 ---
 
 
