@@ -23,7 +23,7 @@ processing, machine learning, and distributed computing. Previously, at Genpact,
 automated
 reporting solutions and enhancing data visualization capabilities to drive operational efficiency.
 
-## Latest milestone
+## Latest Milestone
 
 - **🏆 February 2024**: Runner-up at HackSC SoCal Tech Week with [FitGPT](https://devpost.com/software/fitgpt#updates)-
   an AI-powered fitness coach leveraging Apple Watch data
