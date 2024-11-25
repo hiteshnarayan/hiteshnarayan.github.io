@@ -23,12 +23,17 @@ processing, machine learning, and distributed computing. Previously, at Genpact,
 automated
 reporting solutions and enhancing data visualization capabilities to drive operational efficiency.
 
-## Latest Milestone
 
+<br><br><br>
+## Latest Milestone
+<br>
 - **🏆 February 2024**: Runner-up at HackSC SoCal Tech Week with [FitGPT](https://devpost.com/software/fitgpt#updates)-
   an AI-powered fitness coach leveraging Apple Watch data
+<br>
 - **📊 November 2024**: Published research paper on [Twitter/X Dataset](https://arxiv.org/abs/2411.00376) for 2024 U.S.
   Presidential Election tracking 22M+ posts
+<br>
 - **🔬 July 2024**: Joined USC Information Sciences Institute as a Research Assistant, focusing on political discourse
   analysis and misinformation detection
+<br>
 - **🎓 January 2024**: Started MS in Computer Science at USC, focusing on Machine Learning and Data Science
