@@ -31,6 +31,10 @@ graph LR
     D --> E[Classification]
     E --> F[Output]
 ```
+
+## Results
+![Model Performance](/assets/img/foodvision2.png)
+
 ## Challenges and Solutions
 - **Overfitting Mitigation**: Addressed overfitting by incorporating data augmentation techniques such as TrivialAugmentWide, improving generalization on unseen data.
 - **Scalability**: Designed the system to scale efficiently with larger datasets by leveraging PyTorch’s modular design for easy expansion.
