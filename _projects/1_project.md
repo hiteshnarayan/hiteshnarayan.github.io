@@ -3,7 +3,7 @@ layout: page
 title: Multiclass Image Classification using CNN
 description: >
   Deep Learning Image Recognition System for Food Classification
-  Tech Stack: PyTorch, CUDA, Python, NumPy, Matplotlib, Scikit-learn, Pandas
+  Tech Stack: PyTorch, CUDA, python, pandas, numpy, matplotlib, scikit-learn
 img: assets/img/foodvision.jpg
 importance: 1
 category: Personal
@@ -21,19 +21,15 @@ Built and deployed a lightweight CNN architecture achieving 73% accuracy with 15
 - **Input Pipeline**: Automated image processing with data augmentation
 - **Performance**: 73% classification accuracy with 15.17s training time on CPU
 
+<br>
 
+---
+<img src="/assets/img/foodvision_flowchart.png" alt="Technical Architecture" title="Technical Architecture" width="90%" height="100%">
 
-```mermaid
-graph LR
-    A[Input Image] --> B[Data Pipeline]
-    B --> C[Augmentation]
-    C --> D[TinyVGG CNN]
-    D --> E[Classification]
-    E --> F[Output]
-```
+---
 
 ## Results
-![Model Performance](/assets/img/foodvision2.png)
+<img src="/assets/img/foodvision2.png" alt="Model Performance" title="Model Performance" width="90%" height="100%">
 
 ## Challenges and Solutions
 - **Overfitting Mitigation**: Addressed overfitting by incorporating data augmentation techniques such as TrivialAugmentWide, improving generalization on unseen data.
