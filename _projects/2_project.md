@@ -1,67 +1,47 @@
 ---
 layout: page
 title: Boston Housing Price Prediction
-description: A comprehensive analysis and prediction of housing prices using multivariable regression.
-img: assets/img/boston.jpg
-importance: 2
-category: Personal
+description: >
+  Applied Machine Learning to Predict Housing Prices in Boston
+  >
+  Tech Stack: Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
+  >
+  Techniques: Linear Regression, Log Transformation, Residual Analysis, Feature Engineering, Model Evaluation
+img: assets/img/boston_skyline.jpg
+importance: 1
+category: Machine Learning
 giscus_comments: true
 ---
 
-## Boston Housing Price Prediction
+---
 
-This project involves predicting housing prices in Boston using a multivariable regression model. The project demonstrates the application of data exploration, model development, evaluation, and optimization techniques to achieve accurate predictions.
+## Overview
 
-### Dataset Exploration and Visualization
+This project demonstrates an application of machine learning techniques to predict housing prices in Boston, showcasing proficiency in data analysis, feature engineering, and model optimization.
 
-- **Exploration:** Analyzed the Boston Housing dataset to understand its structure and key features impacting housing prices.
-- **Visualization:** Utilized Seaborn's `pairplot()` to visualize relationships between features such as the number of rooms (RM), distance to employment centers (DIS), socio-economic status (LSTAT), and school quality metrics (PTRATIO) against the target variable (PRICE).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/boston_pairplot.jpg" title="Pairplot of Features" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Pairplot illustrating relationships between key features and housing prices.
-</div>
+--- 
 
-### Data Preparation and Model Development
+## Key Technologies and Skills
 
-- **Data Splitting:** Split the dataset into training and testing sets using `train_test_split()` from sklearn to ensure robust model evaluation.
-- **Model Development:** Developed a multivariable regression model leveraging significant features such as RM, DIS, LSTAT, and PTRATIO.
+- Python, Pandas, NumPy, Scikit-learn
+- Data Visualization: Matplotlib, Seaborn, Plotly
+- Machine Learning: Linear Regression, Model Evaluation
+- Statistical Analysis: Hypothesis Testing, Residual Analysis
+- Data Transformation and Feature Engineering
 
-### Model Evaluation and Interpretation
 
-- **Evaluation Metrics:** Assessed model performance using R-squared values for both training and testing datasets.
-- **Interpretation:** Analyzed regression coefficients to understand the impact of each feature on housing prices.
-- **Residual Analysis:** Investigated residuals to identify patterns and assess model performance.
+---
+## Highlights
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/boston_residuals.jpg" title="Residual Plot" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Residual plot showing the distribution of errors in predictions.
-</div>
+1. **Multidimensional Feature Analysis**
+   - Explored complex relationships between housing characteristics
+   - Utilized advanced visualization techniques
+   - Uncovered non-linear interactions between variables
 
-### Model Improvement and Optimization
+2. **Transformative Modeling Techniques**
+   - Implemented log transformation to improve model performance
+   - Reduced skewness and enhanced predictive accuracy
+   - Demonstrated deep understanding of statistical modeling
 
-- **Data Transformations:** Applied log transformations to improve model accuracy and meet regression assumptions.
-- **Iterative Refinement:** Refined the model based on insights from residual analysis and coefficient interpretation.
-
-### Prediction and Deployment
-
-- **Scenario Analysis:** Specified input values for various features to predict home prices under hypothetical scenarios.
-- **Deployment:** Utilized the trained model to make predictions on new data points, demonstrating practical applicability.
-
-### Learning Outcomes
-
-- Enhanced skills in data exploration, visualization, and preprocessing.
-- Developed expertise in building and interpreting multivariable regression models.
-- Gained experience in model evaluation, optimization, and deployment.
-
-## Conclusion
-
-This project showcases a comprehensive approach to predicting housing prices using multivariable regression. By employing advanced data analysis techniques, we achieved significant insights into factors affecting housing prices in Boston.
+For More Details, visit the [GitHub repository](https://github.com/Hit07/Real-Estate-Price-Model)

@@ -8,7 +8,7 @@ category: Personal
 giscus_comments: true
 ---
 
-## Python Projects and Learning Experiments
+## Python Minor Projects
 
 This page showcases a variety of projects and learning experiments I've undertaken to enhance my skills in Python and
 other technologies. Each project represents a step towards mastering different tools and frameworks, reflecting my
