@@ -6,7 +6,7 @@ description: >
 img: assets/img/data_science_1.jpg
 importance: 4
 category: Personal
-giscus_comments: true
+giscus_comments: False
 ---
 
 ## Data Science Projects and Experiments

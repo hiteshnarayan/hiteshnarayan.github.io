@@ -6,8 +6,8 @@ description: >
   Technologies: Linear Regression, Log Transformation, Residual Analysis, Feature Engineering, Model Evaluation
 img: assets/img/boston_skyline.jpg
 importance: 6
-category: Machine Learning
-giscus_comments: true
+category: Personal
+giscus_comments: False
 ---
 
 ---

@@ -5,7 +5,7 @@ description: A responsive blog application built with Flask and SQLAlchemy.
 img: assets/img/flask.jpg
 importance: 5
 category: Personal
-giscus_comments: true
+giscus_comments: False
 ---
 
 ## Flask Blog Application

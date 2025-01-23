@@ -5,7 +5,7 @@ description: Data analysis project investigating the historical impact of handwa
 img: assets/img/Childbed_fever.jpg
 importance: 4
 category: Personal
-giscus_comments: true
+giscus_comments: False
 ---
 
 ## Childbed Fever and the Impact of Handwashing
