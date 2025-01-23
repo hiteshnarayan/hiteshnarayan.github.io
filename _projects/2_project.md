@@ -5,7 +5,7 @@ description: >
   Applied Machine Learning to Predict Housing Prices in Boston
   Technologies: Linear Regression, Log Transformation, Residual Analysis, Feature Engineering, Model Evaluation
 img: assets/img/boston_skyline.jpg
-importance: 6
+importance: 
 category: work
 giscus_comments: False
 ---

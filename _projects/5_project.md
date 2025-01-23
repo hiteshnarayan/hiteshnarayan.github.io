@@ -5,7 +5,7 @@ description: >
   Investigating the Impact of Handwashing on Childbed Fever Mortality Rates
   Technologies: Data Analysis, Statistical Testing, Time Series Analysis, Data Visualization
 img: assets/img/Childbed_fever.jpg
-importance: 4
+importance: 5
 category: Personal
 giscus_comments: False
 ---

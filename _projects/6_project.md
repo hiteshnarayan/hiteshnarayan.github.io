@@ -5,7 +5,7 @@ description: A responsive blog application built with
   >
   HTML, CSS, and JavaScript as the frontend and Flask, SQLAlchemy, and SQLite as the backend.
 img: assets/img/flask.jpg
-importance: 5
+importance: 3
 category: Personal
 giscus_comments: False
 ---

@@ -4,7 +4,7 @@ title: MINI Projects:A Journey of Learning
 description: PYTHON 🐍 >
     OOP, RESTful APIs, Data Analysis, Web Scraping, Web Development, Game Development, Automation, GUI, Data Visualization, ML
 img: assets/img/proj.jpg
-importance: 5
+importance: 2
 category: Personal
 giscus_comments: False
 ---
