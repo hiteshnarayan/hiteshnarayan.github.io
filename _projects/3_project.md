@@ -1,58 +1,64 @@
 ---
 layout: page
-title: Python Projects and Learning Experiments
-description: A collection of projects and experiments to enhance my skills in Python and related technologies.
+title: Python MINI Projects:A Journey of Learning
+description: >
+    OOP, RESTful APIs, Data Analysis, Web Scraping, Web Development, Game Development, Automation, GUI, Data Visualization, ML
 img: assets/img/proj.jpg
-importance: 3
+importance: 4
 category: Personal
 giscus_comments: true
 ---
 
 ## Python Minor Projects
 
-This page showcases a variety of projects and learning experiments I've undertaken to enhance my skills in Python and
+This repo showcases a variety of projects and learning experiments I've undertaken to enhance my skills in Python and
 other technologies. Each project represents a step towards mastering different tools and frameworks, reflecting my
 journey in software development.
 
-### Project Highlights
+---
 
-#### 1. Web Development with Flask
+### Python Fundamentals
+- Practiced core syntax, functions, and control flow each day to build a solid foundation in variables, loops, conditionals, and functions.
+- Next, I explored object-oriented programming (OOP) concepts like classes, objects, inheritance, and polymorphism.
+- Other deeper concepts like list comprehensions, lambda functions, and decorators were also explored.
+- I also learned about error handling, file I/O, and working with external libraries.
 
-- **Backend Development:** Created RESTful APIs using Flask to handle web requests and responses.
-- **Database Integration:** Utilized SQLite for data storage and retrieval, ensuring efficient data management.
-- **Frontend Design:** Implemented Bootstrap for responsive design, enhancing user interface aesthetics.
+### Web Development
+- **Flask Blog**: A fully-functional blog application with user authentication and database integration
+- **RESTful API**: Developed a RESTful API using Flask for a coffee shop database
+- **Personal Portfolio Website**: Created a responsive portfolio site using HTML, CSS, and Flask
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/python.jpg" title="Tools and Libraries" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+### Data Science and Visualization
+- **Stock Price Alert**: Program that tracks stock prices and sends SMS alerts for significant changes.
+- **Habit Tracker**: Application using Pixela API to track and visualize daily habits.
+- **Data Visualization Dashboard**: Interactive dashboard using Pandas and Plotly to analyze and visualize datasets.
 
-#### 2. Data Analytics and Visualization
+### Automation and Web Scraping
+- **Automated Job Application Bot**: Selenium-based script to automate job applications on LinkedIn.
+- **Instagram Follower Bot**: Automated tool to increase Instagram followers using Selenium.
+- **Amazon Price Tracker**: Web scraper that monitors product prices on Amazon and sends email alerts.
 
-- **Data Analysis:** Conducted exploratory data analysis using Pandas to uncover insights from datasets.
-- **Visualization Tools:** Leveraged Matplotlib and Seaborn to create compelling visualizations that communicate data
-  trends effectively.
+### Game Development
+- **Snake Game**: Classic Snake game built using Python's Turtle graphics
+- **Pong Game**: Two-player Pong game implementation with Python
+- **Blackjack**: Text-based Blackjack game showcasing OOP principles
 
-#### 3. Automation with Selenium
+### GUI Applications
+- **Pomodoro Timer**: Productivity tool with GUI built using Tkinter[
+- **Password Manager**: Secure password storage application with encryption
+- **Flashcard App**: Language learning flashcard application with spaced repetition system
 
-- **Web Scraping:** Developed scripts using Selenium WebDriver to automate data extraction from websites.
-- **Task Automation:** Automated repetitive tasks such as form submissions and data entry, improving efficiency.
+### APIs and Data Processing
+- **Quizzler App**: Trivia game that fetches questions from an API
+- **Flight Deal Finder**: Script that searches for flight deals using multiple APIs
+- **Workout Tracking**: Application that uses natural language processing to log exercises
 
-#### 4. Game Development
+### Others
+- **Morse Code Converter**: Tool to convert text to Morse code and vice versa.
+- **Tic-Tac-Toe AI**: Implementation of Tic-Tac-Toe with an AI opponent
+- **Text-to-Speech Converter**: Application that converts text files to audio
 
-- **Interactive Games:** Created games like Hangman, Guessing Game, and Rock-Paper-Scissors using Python's OOP
-  principles.
-- **User Interface:** Designed graphical user interfaces (GUIs) with Tkinter for enhanced user interaction.
 
-### Learning Outcomes
+---
+There are many more projects I highly suggest you to [check out](https://github.com/Hit07/Minor-Project-Python)<br>
 
-- Enhanced proficiency in Python programming and scripting.
-- Gained experience in web development with Flask and Bootstrap.
-- Developed skills in data analysis and visualization techniques.
-- Improved automation capabilities using Selenium.
-
-## Further Exploration
-
-There are many more projects I highly suggest you to check out. These additional projects showcase a wide range of
-skills and technologies that I have explored throughout my learning journey.

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Data Science Projects 
-description: A collection of data analysis and visualization projects using Python.
+title: Data Science 
+description: >
+     Skills Learned: Data cleaning, preprocessing, exploratory data analysis (EDA), and visualization using matplotlib and seaborn.
 img: assets/img/data_science_1.jpg
 importance: 4
 category: Personal

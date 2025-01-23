@@ -3,12 +3,9 @@ layout: page
 title: Boston Housing Price Prediction
 description: >
   Applied Machine Learning to Predict Housing Prices in Boston
-  >
-  Tech Stack: Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
-  >
-  Techniques: Linear Regression, Log Transformation, Residual Analysis, Feature Engineering, Model Evaluation
+  Technologies: Linear Regression, Log Transformation, Residual Analysis, Feature Engineering, Model Evaluation
 img: assets/img/boston_skyline.jpg
-importance: 1
+importance: 6
 category: Machine Learning
 giscus_comments: true
 ---
@@ -17,7 +14,7 @@ giscus_comments: true
 
 ## Overview
 
-This project demonstrates an application of machine learning techniques to predict housing prices in Boston, showcasing proficiency in data analysis, feature engineering, and model optimization.
+This project demonstrates an  application of machine learning techniques to predict housing prices in Boston, showcasing proficiency in data analysis, feature engineering, and model optimization.
 
 
 --- 
