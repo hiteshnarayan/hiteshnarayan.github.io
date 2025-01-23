@@ -1,19 +1,18 @@
 ---
 layout: page
 title: Statistical Analysis of Childbed Fever
-description: Data analysis project investigating the historical impact of handwashing on reducing childbed fever.
+description: >
+  Investigating the Impact of Handwashing on Childbed Fever Mortality Rates
+  Technologies: Data Analysis, Statistical Testing, Time Series Analysis, Data Visualization
 img: assets/img/Childbed_fever.jpg
 importance: 4
 category: Personal
 giscus_comments: False
 ---
 
-## Childbed Fever and the Impact of Handwashing
+## Overview
 
 This project investigates the impact of handwashing on reducing death rates due to childbed fever based on historical data from Dr. Ignaz Semmelweis. The analysis provides insights into how hand hygiene practices significantly improved health outcomes in maternity wards.
-
-### Project Overview
-
 - **Historical Context:** Dr. Ignaz Semmelweis hypothesized that handwashing could prevent infections in maternity wards. This project analyzes his original data to validate his hypothesis.
 - **Objective:** To demonstrate the effectiveness of handwashing in reducing mortality rates from childbed fever.
 
@@ -34,8 +33,8 @@ This project investigates the impact of handwashing on reducing death rates due 
 4. **Time Series Analysis:** Analyzed different periods in the data using rolling averages to highlight trends.
 
 
+<br>
 
-### Analysis
 
 #### Histograms and KDE Plots
 
@@ -51,7 +50,7 @@ This project investigates the impact of handwashing on reducing death rates due 
 - **Histograms:** Visualized death rate distributions before and after handwashing.
 - **KDE Plots:** Used kernel density estimates to smooth distributions and highlight differences.
 
-#### Time Series Analysis
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -65,9 +64,9 @@ This project investigates the impact of handwashing on reducing death rates due 
 - **Rolling Averages:** Calculated 6-month rolling averages of death rates before mandatory handwashing.
 - **Trend Analysis:** Highlighted changes in death rates over time with handwashing implementation.
 
-#### Statistical Tests
+<br>
 
-- **t-test:** Conducted a t-test to determine the statistical significance of differences in death rates pre- and post-handwashing.
+---
 
 ### Results
 

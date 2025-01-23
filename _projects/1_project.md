@@ -2,8 +2,6 @@
 layout: page
 title: Multiclass Image Classification using CNN
 description: >
-  Deep Learning Image Recognition System for Food Classification
-  >
   Tech Stack: PyTorch, CUDA, python, pandas, numpy, matplotlib, scikit-learn
 img: assets/img/foodvision.png
 importance: 1
