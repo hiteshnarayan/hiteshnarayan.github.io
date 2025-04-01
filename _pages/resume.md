@@ -7,7 +7,7 @@ nav: true
 
 <div class="pdf-container">
   <iframe 
-    src="https://drive.google.com/file/d/11HQ5DZ04dAH8gvB4cOdc8v0yqWvNTFzf/preview" 
+    src="https://drive.google.com/file/d/14gFUJugyPAQTCJRHxSyjlNwm0gs1cz3-/view?usp=sharing/preview" 
     style="width: 100%; height: 100vh; border: none;"
     frameborder="0" 
     allowfullscreen>
