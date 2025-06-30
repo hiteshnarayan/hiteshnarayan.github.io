@@ -35,8 +35,6 @@ Analytics Trainee under Business Intelligence, developing Power BI dashboards an
 
 <br>
 
-<br>
-
 
 ## Personal Interests
 
@@ -47,7 +45,6 @@ In my downtime, you’ll often find me trekking or heading out on a spontaneous 
 
 <br>
 
-<br>
 
 ## News
 
