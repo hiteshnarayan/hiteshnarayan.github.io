@@ -2,45 +2,57 @@
 layout: about
 title: About
 permalink: /
-subtitle: Informatics R&D Intern @ ATRI | MSCS'25 @ USC | Research Assistant @USCISI | Former Business Analyst @Genpact
+subtitle: Informatics R&D Intern at ATRI | MS Computer Science @ USC
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: profile_img.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello!
-I'm Hitesh from USC :)
-Diving deep into data science and machine learning space.
-Currently,pursuing MS in
-Computer Science @[University of Southern California](https://www.usc.edu/) with expected graduation in December 2025.
-At [ATRI](https://atri.usc.edu/), I'm developing
-participant tracking modules for clinical trials on EDC.
-Previously, I worked on distributed ETL
-pipelines @[HUMANS Lab](http://www.emilio.ferrara.name/code/)
-under [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/).
-I engineered distributed data pipelines and applied
-advanced NLP techniques to
-analyze political discourse patterns across millions of social media posts.
-My background spans ML/NLP, ETL pipeline development, and business analytics, with experience implementing enterprise
-solutions that measurably improved reporting efficiency at [Genpact](https://www.genpact.com/).
-<br><br>
 
-## Latest Milestone
+Hello! I'm a Master's student at [University of Southern California](https://www.usc.edu/) focusing on machine learning
+and data systems. I earned my Bachelor's degree in Information Science and Engineering
+at [Visvesvaraya Technological University](https://www.vtu.ac.in/).
 
-- **💼January 2025**: Informatics R&D Intern at [ATRI](https://atri.usc.edu/) ,
-   focusing on developing participant tracking modules for clinical trials on EDC
-  <br>
-- **🏆 November 2024**: Runner-up at HackSC SoCal Tech Week with [FitGPT](https://devpost.com/software/fitgpt#updates)-
-  an AI-powered fitness coach leveraging Apple Watch data
-  <br>
-- **📊 November 2024**: Published research paper on [Twitter/X Dataset](https://arxiv.org/abs/2411.00376) for 2024 U.S.
-  Presidential Election tracking 22M+ posts
-  <br>
-- **🔬 July 2024**: Joined USC Information Sciences Institute as a Research Assistant, focusing on political discourse
-  analysis and misinformation detection
-  <br>
-- **🎓 January 2024**: Started MS in Computer Science at USC, focusing on Machine Learning and Data Science
+Currently, I'm an Informatics R&D Intern at USC [Alzheimer's Therapeutic Research Institute](https://atri.usc.edu/),
+where I build participant tracking features for clinical trials. I work in an agile, regulated research environment,
+contributing to full-stack development and test automation.
+
+In 2024, I worked as a Graduate Research Assistant in the [HUMANS Lab](http://www.emilio.ferrara.name/code/)
+under [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/), where I co-authored a CySoc 2025 paper on political
+discourse during the 2024 U.S. Presidential Election. In 2023, I worked at [Genpact](https://www.genpact.com/) as a Data
+Analytics Trainee under Business Intelligence, developing Power BI dashboards and streamlining business reporting for
+30,000+ employees across multiple business units.
+
+## Personal Interests
+
+Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
+at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community.
+
+## News
+
+- **June 2025**: Co-authored [ICWSM CySoc 2025](https://aaai.org/icwsm2025/) paper on U.S. election discourse using 46M
+  Twitter/X posts
+- **Feb 2025**: Executive Board Member – Outreach & External Affairs at [GRIDS USC](https://viterbigrids.org/)
+- **Jan 2025**: Informatics R&D Intern at [USC ATRI](https://atri.usc.edu/), building clinical trial participant
+  tracking modules
+- **Nov 2024**: HackSC Runner-Up – Built [FitGPT](https://devpost.com/software/fitgpt#updates), an AI-powered fitness
+  coach using Apple Health and Hevy data
+- **July 2024**: Graduate Research Assistant at [USC ISI – HUMANS Lab](http://www.emilio.ferrara.name/code/), focusing
+  on political discourse and misinformation
+- **Jan 2024**: Began MS in Computer Science at [University of Southern California](https://www.usc.edu/), specializing
+  in Machine Learning and Data Science
+
+## Education
+
+**University of Southern California** | Los Angeles, CA  
+Master of Science in Computer Science (MSCS)  
+Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems
+
+**Visvesvaraya Technological University** | Bengaluru, India  
+Bachelor of Engineering in Information Science and Engineering  
+Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data  
+Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department
