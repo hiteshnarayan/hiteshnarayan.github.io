@@ -33,9 +33,6 @@ Analytics Trainee under Business Intelligence, developing Power BI dashboards an
 
 <br>
 
-<br>
-
-
 ## Personal Interests
 
 Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
