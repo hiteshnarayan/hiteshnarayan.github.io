@@ -26,13 +26,12 @@ under [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/), where I co-autho
 discourse during the 2024 U.S. Presidential Election. In 2023, I worked at [Genpact](https://www.genpact.com/) as a Data
 Analytics Trainee under Business Intelligence, developing Power BI dashboards and streamlining business reporting for
 30,000+ employees across multiple business units.
-<br>
+<br><br><br>
 
 ## Personal Interests
 
 Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
 at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community.
-
 <br>
 
 ## News
