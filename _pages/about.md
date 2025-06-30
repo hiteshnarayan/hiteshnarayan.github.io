@@ -26,7 +26,17 @@ under [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/), where I co-autho
 discourse during the 2024 U.S. Presidential Election. In 2023, I worked at [Genpact](https://www.genpact.com/) as a Data
 Analytics Trainee under Business Intelligence, developing Power BI dashboards and streamlining business reporting for
 30,000+ employees across multiple business units.
-<br><br><br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 
 ## Personal Interests
 
