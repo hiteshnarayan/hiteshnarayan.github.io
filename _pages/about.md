@@ -12,7 +12,7 @@ profile:
 social: true # includes social icons at the bottom of the page
 ---
 
-
+<br>
 Hello! I'm a Master's student at [University of Southern California](https://www.usc.edu/) focusing on machine learning
 and data systems. I earned my Bachelor's degree in Information Science and Engineering
 at [Visvesvaraya Technological University](https://www.vtu.ac.in/).
@@ -26,11 +26,14 @@ under [Prof. Emilio Ferrara](https://www.emilio.ferrara.name/), where I co-autho
 discourse during the 2024 U.S. Presidential Election. In 2023, I worked at [Genpact](https://www.genpact.com/) as a Data
 Analytics Trainee under Business Intelligence, developing Power BI dashboards and streamlining business reporting for
 30,000+ employees across multiple business units.
+<br>
 
 ## Personal Interests
 
 Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
 at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community.
+
+<br>
 
 ## News
 
@@ -45,6 +48,8 @@ at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science communit
   on political discourse and misinformation
 - **Jan 2024**: Began MS in Computer Science at [University of Southern California](https://www.usc.edu/), specializing
   in Machine Learning and Data Science
+
+<br>
 
 ## Education
 
