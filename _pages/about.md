@@ -7,7 +7,7 @@ subtitle: Informatics R&D Intern at ATRI | MS Computer Science @ USC
 profile:
   align: right
   image: profile_img.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
 social: true # includes social icons at the bottom of the page
 ---

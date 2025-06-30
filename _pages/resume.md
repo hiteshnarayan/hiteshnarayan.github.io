@@ -53,11 +53,7 @@ nav: true
  </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 20px;">
- <a href="https://drive.google.com/file/d/1G-tqbCinsQwui_3XE3A8eFd_1oAnPTcA/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
-   📄 Download Resume
- </a>
-</div>
+
 
 <style>
 .pdf-container {
