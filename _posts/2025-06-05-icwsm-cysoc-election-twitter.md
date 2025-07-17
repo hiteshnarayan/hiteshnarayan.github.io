@@ -3,8 +3,8 @@ layout: post
 title: ICWSM CySoc 2025 – A Public Twitter/X Dataset on the 2024 U.S. Election
 date: 2025-06-05
 description: Published at the 6th International Workshop on Cyber Social Threats (CySoc 2025), this paper introduces a dataset of 46M tweets on U.S. election discourse.
-tags: [ dataset,twitter,icwsm2025,cysoc,election,misinformation,political-discourse ]
-categories: [ research, publications, datasets ]
+tags: [dataset, twitter, icwsm2025, cysoc, election, misinformation, political-discourse]
+categories: [research, publications, datasets]
 ---
 
 Our paper,
@@ -49,3 +49,4 @@ This resource supports the study of:
   year={2025},
   doi={10.36190/2025.15}
 }
+```
