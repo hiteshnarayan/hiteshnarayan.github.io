@@ -33,7 +33,7 @@ This resource supports the study of:
 
 ### Links
 
-- **Proceedings**: [CySoc 2025 @ ICWSM](https://aaai.org/icwsm2025/)
+- **Proceedings**: [CySoc 2025 @ ICWSM](https://workshop-proceedings.icwsm.org/abstract.php?id=2025_15)
 - **DOI**: [10.36190/2025.15](https://doi.org/10.36190/2025.15)
 - **Dataset on GitHub**: [sinking8/usc-x-24-us-election](https://github.com/sinking8/usc-x-24-us-election)
 
