@@ -1,100 +1,81 @@
 ---
 layout: page
-title: Transfer Learning for Image Classification 
-description: >
-  Tech Stack: TensorFlow, Keras, scipy, scikit-learn
-  Technologies: Deep Learning, Computer Vision, Transfer Learning, Data Augmentation, Model Evaluation
-img: assets/img/Transfer_learning.png
+title: project 7
+description: with background image
+img: assets/img/4.jpg
 importance: 1
-category: Academic
-related_publications: false
----
-##  Overview
-
-In this project,
-I developed an advanced image classification system
-using transfer learning techniques to distinguish between six different scene categories.
-This work demonstrates my proficiency in deep learning, computer vision,
-and practical application of the latest machine learning models.
-
-<hr>
-
-## Key Achievements
-
--   Implemented transfer learning using four pre-trained models: ResNet50, ResNet100, EfficientNetB0, and VGG16
-    
--   Engineered a robust data pipeline for preprocessing and augmenting image data
-    
--   Optimized model performance through fine-tuning and regularization techniques
-    
--   Conducted comprehensive model evaluation and comparison
-
-<hr>
-
-## **Technical Approach**
-
-## Data Preparation and Augmentation
-
-I began by organizing the image dataset into class-specific folders and implementing one-hot encoding for labels. To ensure uniform input dimensions, I applied resizing and zero-padding techniques. To enhance model generalization, I implemented a suite of data augmentation methods, including:
-
--   Random cropping
-    
--   Zooming
-    
--   Rotation
-    
--   Flipping
-    
--   Contrast adjustment
-    
-
-These augmentation techniques significantly expanded the effective size of our training set and improved model robustness.
-
-## Model Architecture and Training
-
-For each pre-trained model (ResNet50, ResNet100, EfficientNetB0, VGG16):
-
--   Utilized the pre-trained networks as feature extractors
-    
--   Fine-tuned the last fully connected layer while freezing earlier layers
-    
--   Implemented ReLU activation in the hidden layers and softmax in the output layer
-    
--   Applied L2 regularization, batch normalization, and dropout (20%) to prevent overfitting
-    
-
-The training process involved:
-
--   Using the ADAM optimizer with multinomial cross-entropy loss
-    
--   Training for a minimum of 50 epochs (up to 100)
-    
--   Implementing early stopping based on validation set performance
-    
--   Utilizing a 20% validation split for each class
-    
-## Model Comparison
-
-| Model            | Precision | Recall  | F1 Score | AUC   |
-|-------------------|-----------|---------|----------|-------|
-| ResNet50         | 0.7306    | 0.7280  | 0.7262   | 0.9441 |
-| ResNet101V2      | 0.7003    | 0.6997  | 0.6979   | 0.9333 |
-| EfficientNetB0   | 0.0494    | 0.1673  | 0.0761   | 0.7283 |
-| VGG16            | 0.8863    | 0.8857  | 0.8856   | 0.9881 |
-
-**Best performing model based on F1 Score:** VGG16
-
-
-## Performance Evaluation
-
-To assess and compare model performance:
-
--   Tracked and visualized training and validation errors across epochs
-    
--   Calculated Precision, Recall, AUC, and F1 scores for training, validation, and test sets
-    
--   Conducted a comparative analysis of model performances to identify the most effective architecture for this specific task
-    
+category: work
+related_publications: true
 ---
 
-To check out the project code, visit the [GitHub repository](https://github.com/Hit07/Transfer_Learning-CNN)
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
+
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
+
+{% endraw %}

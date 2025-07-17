@@ -1,12 +1,14 @@
 github_users:
-  - Hit07
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - Hit07/ML-DL-Torch
-  - Hit07/Data_Science
-  - Hit07/Minor-Project-Python
-  - Hit07/Sequeance-Alignment-DP
-  - Hit07/Child-fever-Analysis
-  - Hit07/Flask-Blog-App
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons

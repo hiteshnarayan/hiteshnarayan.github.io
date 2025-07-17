@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Hi, I happy to be part of this wonderful stack
+A simple inline announcement.

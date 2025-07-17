@@ -1,88 +1,81 @@
 ---
 layout: page
-title: Human Activity Classification
-description: Advanced ML pipeline for sensor-based activity recognition
-img: assets/img/activity_classification.png
+title: project 8
+description: an other project with a background image and giscus comments
+img: assets/img/9.jpg
 importance: 2
-category: Academic
-giscus_comments: false
+category: work
+giscus_comments: true
 ---
 
-# Human Activity Classification using Body Sensor Data
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-This project implements an advanced machine learning pipeline for human activity classification using multi-dimensional time-series data from body-worn sensors. The system processes and analyzes data from the AReM (Activity Recognition system based on Multisensor data fusion) dataset to classify seven distinct human activities.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-## Project Highlights
-- **94% Classification Accuracy** across seven distinct human activities
-- **12% Accuracy Improvement** through advanced preprocessing and optimization
-- **Comprehensive ML Pipeline** implementation for time-series data
-- **Robust Feature Engineering** with multiple selection techniques
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/data_pipeline.png" title="Data Engineering Pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Data Engineering Pipeline: From raw sensor data to final evaluation
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-
-## Technical Architecture
-
-### Advanced Feature Engineering
-1. **Time Series Processing**
-   - Dynamic segmentation up to 20 segments per series
-   - Temporal pattern extraction
-   - Local characteristic analysis
-
-2. **Statistical Feature Extraction**
-```python
-features = {
-'statistical': ['min', 'max', 'mean', 'median'],
-'distribution': ['std', 'q1', 'q3'],
-'temporal': ['sliding_windows', 'segment_analysis']
-}
-```
-
-3. **Dimensionality Reduction**
-- Principal Component Analysis (PCA)
-- Recursive Feature Elimination (RFE)
-- Cross-validated feature selection
-
 <div class="row">
- <div class="col-sm mt-3 mt-md-0">
-     {% include figure.liquid loading="eager" path="assets/img/feature_engineering.png" title="Feature Engineering Process" class="img-fluid rounded z-depth-1" %}
- </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
- Visualization of the feature engineering process, showcasing the transformation from raw data to engineered features.
+    This image can also have a caption. It's like magic.
 </div>
 
-## Technical Implementation
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-### Class Imbalance Solutions
-- **SMOTE Implementation**
-- Synthetic sample generation
-- Balanced class distribution
-- Enhanced model robustness
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
-### Model Optimization
-1. **Regularization Techniques**
-- L1 (Lasso) for feature sparsity
-- L2 (Ridge) for overfitting prevention
-- Cross-validation for hyperparameter tuning
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
 
-2. **Performance Metrics**
-```python
+{% raw %}
 
-metrics = {
-'accuracy': 0.94,
-'improvement': '12%',
-'cross_validation': '5-fold',
-'evaluation': ['confusion_matrix', 'ROC_curves']
-}
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 ```
-This project demonstrates the effective application of advanced machine learning techniques to classify
-human activities from sensor data. The implemented pipeline achieves high accuracy through careful feature engineering, model optimization, and handling of class imbalances.
----
-For more details, visit the [GitHub repository](https://github.com/Hit07/human-activity-recognition-ml)
+
+{% endraw %}

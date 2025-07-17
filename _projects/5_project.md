@@ -1,81 +1,80 @@
 ---
 layout: page
-title: Statistical Analysis of Childbed Fever
-description: >
-  Investigating the Impact of Handwashing on Childbed Fever Mortality Rates
-  Technologies: Data Analysis, Statistical Testing, Time Series Analysis, Data Visualization
-img: assets/img/Childbed_fever.jpg
-importance: 5
-category: Personal
-giscus_comments: False
+title: project 5
+description: a project with a background image
+img: assets/img/1.jpg
+importance: 3
+category: fun
 ---
 
-## Overview
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-This project investigates the impact of handwashing on reducing death rates due to childbed fever based on historical data from Dr. Ignaz Semmelweis. The analysis provides insights into how hand hygiene practices significantly improved health outcomes in maternity wards.
-- **Historical Context:** Dr. Ignaz Semmelweis hypothesized that handwashing could prevent infections in maternity wards. This project analyzes his original data to validate his hypothesis.
-- **Objective:** To demonstrate the effectiveness of handwashing in reducing mortality rates from childbed fever.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-### Dataset
-
-- **Source:** Historical data collected by Dr. Semmelweis.
-- **Key Columns:**
-  - `date`: The date of the record.
-  - `births`: The number of births in the clinic.
-  - `deaths`: The number of deaths in the clinic.
-  - `clinic`: The name of the clinic.
-
-### Methodology
-
-1. **Data Cleaning:** Addressed missing values and converted data types for accurate analysis.
-2. **Data Visualization:** Utilized histograms, KDE plots, and line charts to visualize data distributions and trends.
-3. **Statistical Analysis:** Performed t-tests to compare death rates before and after implementing handwashing.
-4. **Time Series Analysis:** Analyzed different periods in the data using rolling averages to highlight trends.
-
-
-<br>
-
-
-#### Histograms and KDE Plots
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Kde.jpg" title="KDE plots" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Kernel Density Estimate (KDE) plots showing the distribution of death rates.
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-
-- **Histograms:** Visualized death rate distributions before and after handwashing.
-- **KDE Plots:** Used kernel density estimates to smooth distributions and highlight differences.
-
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/handwashing_analysis.jpg" title="Handwashing Impact Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Visualization showing the reduction in death rates after introducing handwashing.
+    This image can also have a caption. It's like magic.
 </div>
 
-- **Rolling Averages:** Calculated 6-month rolling averages of death rates before mandatory handwashing.
-- **Trend Analysis:** Highlighted changes in death rates over time with handwashing implementation.
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<br>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
----
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
 
-### Results
+{% raw %}
 
-The analysis shows a significant reduction in death rates after introducing handwashing:
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
 
-- Average death rate before handwashing: 9.92%
-- Average death rate after handwashing: 3.88%
-- t-test p-value: 0.0000002985, indicating a highly significant difference.
-
-### Conclusion
-
-The analysis provides strong evidence supporting Dr. Semmelweis's hypothesis that handwashing significantly reduces death rates due to childbed fever. This finding underscores the importance of hygiene practices in medical settings.
+{% endraw %}
