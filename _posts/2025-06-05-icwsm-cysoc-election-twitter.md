@@ -10,7 +10,7 @@ categories: [research, publications, datasets]
 Our paper,
 _**“A Public Dataset Tracking Social Media Discourse about the 2024 U.S. Presidential Election on Twitter/X”**_, was
 presented at the **6th International Workshop on Cyber Social Threats (CySoc 2025)**, co-located
-with [ICWSM 2025](https://aaai.org/icwsm2025/).
+with [ICWSM 2025](https://workshop-proceedings.icwsm.org/abstract.php?id=2025_15).
 
 > Published: **June 5, 2025**  
 > Co-authors: Ashwin Balasubramanian, Vito Zou, **Hitesh Narayana**, Christina You, Luca Luceri, Emilio Ferrara  
