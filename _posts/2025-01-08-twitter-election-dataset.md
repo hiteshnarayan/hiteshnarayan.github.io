@@ -7,7 +7,7 @@ tags: [dataset, social-media, twitter, misinformation, election2024, research]
 categories: [research, datasets, publications]
 ---
 
-We just released the first version of a large-scale dataset capturing political discourse on Twitter/X related to the 
+We just released the first version of a large-scale dataset capturing political discourse on Twitter/X related to the
 **2024 U.S. Presidential Election**. The dataset consists of over **22 million posts** collected between May 1, 2024 and
 July 31, 2024, using a custom-built scraper targeting election-specific hashtags, political figures, and major events.
 
