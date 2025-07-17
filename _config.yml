@@ -15,8 +15,7 @@ footer_text: >
   target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: prof_pic_cropped.jpeg️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
+icon: prof_icon.jpeg
 url: https://hiteshnarayan.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
