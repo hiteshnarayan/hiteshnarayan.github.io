@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Runners-Up at @HackSC 2024 in the Athletes Track!
-date: 2015-11-07
+date: 2024-11-07
 inline: false
 related_posts: false
 ---
