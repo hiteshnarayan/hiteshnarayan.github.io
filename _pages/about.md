@@ -23,7 +23,7 @@ latest_posts:
   limit: 1 # leave blank to include all the blog posts
 ---
 
-Hi there!  
+Hi there!
 I’m a Computer Science graduate student at [University of Southern California](https://www.usc.edu/),
 focusing on machine learning and data systems.
 I earned my Bachelor's degree in Information Science and Engineering
@@ -46,12 +46,12 @@ operations at scale.
 
 <br>
 
-<br>
 
 ## Personal Interests
 
 Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
-at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community. I also love exploring new places and cultures, and I'm an avid fan of science fiction movies and TV shows.
+at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community. I also love exploring new places and
+cultures, and I'm an avid fan of science fiction movies and TV shows.
 In my downtime, you’ll often find me trekking or heading out on a spontaneous hike
 
 <br>
