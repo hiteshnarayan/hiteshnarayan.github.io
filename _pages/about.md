@@ -46,36 +46,28 @@ operations at scale.
 
 <br>
 
+## Personal Interests
 
-[//]: # (## Personal Interests)
+Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
 
-[//]: # ()
-[//]: # (Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member)
+at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community. I also love exploring new places and
 
-[//]: # (at [G.R.I.D.S]&#40;https://gridsusc.com/&#41; USC to help grow the data science community. I also love exploring new places and)
+cultures, and I'm an avid fan of science fiction movies and TV shows.
 
-[//]: # (cultures, and I'm an avid fan of science fiction movies and TV shows.)
+In my downtime, you’ll often find me trekking or heading out on a spontaneous hike
 
-[//]: # (In my downtime, you’ll often find me trekking or heading out on a spontaneous hike)
 
-[//]: # ()
-[//]: # (<br>)
+<br>
 
-[//]: # ()
-[//]: # (## Education)
+## Education
 
-[//]: # ()
-[//]: # (**University of Southern California** | Los Angeles, CA  )
+**University of Southern California** | Los Angeles, CA
 
-[//]: # (Master of Science in Computer Science &#40;MSCS&#41;  )
+Master of Science in Computer Science (MSCS)
+Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems
 
-[//]: # (Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems)
+**Visvesvaraya Technological University** | Bengaluru, India
 
-[//]: # ()
-[//]: # (**Visvesvaraya Technological University** | Bengaluru, India  )
-
-[//]: # (Bachelor of Engineering in Information Science and Engineering  )
-
-[//]: # (Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data  )
-
-[//]: # (Awards: SSP Post-Matric Scholarship &#40;merit-based&#41;, Top 5% of department)
+Bachelor of Engineering in Information Science and Engineering
+Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data
+Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department
