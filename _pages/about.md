@@ -29,7 +29,7 @@ focusing on machine learning and data systems.
 I earned my Bachelor's degree in Information Science and Engineering
 from [Visvesvaraya Technological University](https://www.vtu.ac.in/).
 
-Currently, I’m an Software Engineer Intern at USC's [Alzheimer's Therapeutic Research Institute](https://atri.usc.edu/),
+Currently, I’m a Software Engineer Intern at USC's [Alzheimer's Therapeutic Research Institute](https://atri.usc.edu/),
 where I help build secure and scalable tools for clinical trials.
 I work in an agile, regulated research environment, contributing to full-stack development and test automation.
 
@@ -47,22 +47,35 @@ operations at scale.
 <br>
 
 
-## Personal Interests
+[//]: # (## Personal Interests)
 
-Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
-at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community. I also love exploring new places and
-cultures, and I'm an avid fan of science fiction movies and TV shows.
-In my downtime, you’ll often find me trekking or heading out on a spontaneous hike
+[//]: # ()
+[//]: # (Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member)
 
-<br>
+[//]: # (at [G.R.I.D.S]&#40;https://gridsusc.com/&#41; USC to help grow the data science community. I also love exploring new places and)
 
-## Education
+[//]: # (cultures, and I'm an avid fan of science fiction movies and TV shows.)
 
-**University of Southern California** | Los Angeles, CA  
-Master of Science in Computer Science (MSCS)  
-Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems
+[//]: # (In my downtime, you’ll often find me trekking or heading out on a spontaneous hike)
 
-**Visvesvaraya Technological University** | Bengaluru, India  
-Bachelor of Engineering in Information Science and Engineering  
-Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data  
-Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department
+[//]: # ()
+[//]: # (<br>)
+
+[//]: # ()
+[//]: # (## Education)
+
+[//]: # ()
+[//]: # (**University of Southern California** | Los Angeles, CA  )
+
+[//]: # (Master of Science in Computer Science &#40;MSCS&#41;  )
+
+[//]: # (Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems)
+
+[//]: # ()
+[//]: # (**Visvesvaraya Technological University** | Bengaluru, India  )
+
+[//]: # (Bachelor of Engineering in Information Science and Engineering  )
+
+[//]: # (Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data  )
+
+[//]: # (Awards: SSP Post-Matric Scholarship &#40;merit-based&#41;, Top 5% of department)
