@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Informatics Intern at [USC ATRI](https://atri.usc.edu/), building clinical trial participant tracking modules
+Software Engineer Intern at [USC ATRI](https://atri.usc.edu/), building clinical trial participant tracking modules

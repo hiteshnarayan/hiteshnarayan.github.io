@@ -29,7 +29,7 @@ focusing on machine learning and data systems.
 I earned my Bachelor's degree in Information Science and Engineering
 from [Visvesvaraya Technological University](https://www.vtu.ac.in/).
 
-Currently, I’m an Informatics Intern at USC's [Alzheimer's Therapeutic Research Institute](https://atri.usc.edu/),
+Currently, I’m an Software Engineer Intern at USC's [Alzheimer's Therapeutic Research Institute](https://atri.usc.edu/),
 where I help build secure and scalable tools for clinical trials.
 I work in an agile, regulated research environment, contributing to full-stack development and test automation.
 
