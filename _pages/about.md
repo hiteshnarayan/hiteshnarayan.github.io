@@ -20,7 +20,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 1 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hi there!
@@ -49,11 +49,8 @@ operations at scale.
 ## Personal Interests
 
 Outside class, I enjoy mentoring peers, contributing to open-source projects, and serve as an Outreach Board Member
-
 at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science community. I also love exploring new places and
-
 cultures, and I'm an avid fan of science fiction movies and TV shows.
-
 In my downtime, you’ll often find me trekking or heading out on a spontaneous hike
 
 
@@ -69,5 +66,5 @@ Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Databa
 **Visvesvaraya Technological University** | Bengaluru, India
 
 Bachelor of Engineering in Information Science and Engineering
-Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data
-Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department
+Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Big Data 
+<br> Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department
