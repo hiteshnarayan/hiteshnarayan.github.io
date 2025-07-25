@@ -40,7 +40,7 @@ where I co-authored a paper accepted to CySoc 2025.
 My work focused on large-scale social media data collection and the analysis of political discourse during the 2024 U.S.
 Presidential Election.
 
-Previously, I worked at [Genpact](https://www.genpact.com/) as a Business Analyst, focusing on business intelligence. I
+Previously, I worked at [Genpact](https://www.genpact.com/) as a Data Analyst, focusing on business intelligence. I
 streamlined enterprise reporting workflows across multiple business units and contributed to automation initiatives for
 operations at scale.
 
