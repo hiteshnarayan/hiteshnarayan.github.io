@@ -29,7 +29,7 @@ For more details, refer to the [IEMOCAP dataset documentation](https://sail.usc.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/iemocap/iemocap_model_architecture.png" title="Fusion-Based Multimodal Architecture for Emotion Recognition" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/iemocap/iemocap_model_architecture.png" title="Fusion-Based Multimodal Architecture for Emotion Recognition" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -207,7 +207,7 @@ Evaluated using 5-fold subject-independent cross-validation:
 ---
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/iemocap/performance_comparison.png" title="Performance Comparison Across Methods" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/iemocap/performance_comparison.png" title="Performance Comparison Across Methods" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 The above figure illustrates the performance comparison across different methods, highlighting the superiority of early fusion.
@@ -215,7 +215,7 @@ The above figure illustrates the performance comparison across different methods
 --- 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/iemocap/modality_contribution.png" title="Individual Modality Contributions" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/iemocap/modality_contribution.png" title="Individual Modality Contributions" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 The above figure shows the individual contributions of each modality to the overall classification performance, indicating that visual features contribute the least, while text and audio features are more informative.
@@ -224,7 +224,7 @@ The above figure shows the individual contributions of each modality to the over
 
 - [IEMOCAP Dataset](https://sail.usc.edu/iemocap/)
 - GRATITUDE TO [Prof. Mohammad Soleymani](https://soleymani.org/) for providing the dataset and guidance on the project.
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for model building and training utilities.
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.liquid) for model building and training utilities.
 - Hugging Face's [Transformers](https://huggingface.co/transformers/) library for BERT embeddings.
 
 ## Future Directions
