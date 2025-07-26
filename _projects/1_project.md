@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multimodal Emotion Recognition with Feature Fusion
-img: assets/img/iemocap_preview.png
+img: assets/img/iemocap/iemocap_preview.png
 importance: 2
 category: Machine Learning
 github: https://github.com/hiteshnarayan/Multimodal-Emotion-Recognition
