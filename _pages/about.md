@@ -54,17 +54,5 @@ at [G.R.I.D.S](https://gridsusc.com/) USC to help grow the data science communit
 I also love exploring new places and cultures, and I'm an avid fan of science fiction movies and TV shows.
 In my downtime, you’ll often find me trekking or heading out on a spontaneous hike
 
+----
 
-<br>
-
-## Education
-
-**University of Southern California** \|  Los Angeles, CA
-
-Master of Science in Computer Science (MSCS)
-<br> Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems
-
-**Visvesvaraya Technological University** \|  Bengaluru, India
-
-Bachelor of Engineering in Information Science and Engineering
-<br> Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department
