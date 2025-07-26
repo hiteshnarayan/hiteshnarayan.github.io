@@ -59,12 +59,12 @@ In my downtime, you’ll often find me trekking or heading out on a spontaneous 
 
 ## Education
 
-**University of Southern California** \| Los Angeles, CA
+**University of Southern California** \|  Los Angeles, CA
 
 Master of Science in Computer Science (MSCS)
-Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems
+<br> Coursework: Machine Learning for Data Science, Deep Learning, Algorithms, Database Systems
 
-**Visvesvaraya Technological University** \| Bengaluru, India
+**Visvesvaraya Technological University** \|  Bengaluru, India
 
 Bachelor of Engineering in Information Science and Engineering
 <br> Awards: SSP Post-Matric Scholarship (merit-based), Top 5% of department

@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Multimodal Emotion Recognition with Feature Fusion
-description: Deep Learning approach for emotion classification using unimodal models and early/late fusion techniques in PyTorch.
-img: assets/img/iemocap_preview.jpg
+img: assets/img/iemocap_preview.png
 importance: 2
 category: Machine Learning
 github: https://github.com/hiteshnarayan/Multimodal-Emotion-Recognition
@@ -16,6 +15,8 @@ classes using pre-extracted ResNet visual features, VGGish audio features, and B
 on comparing different feature fusion strategies and understanding when multimodal approaches outperform single-modality
 methods.
 
+---
+
 ## Dataset
 
 IEMOCAP (Interactive Emotional Dyadic Motion Capture) is a 12‑hour multimodal corpus of dyadic emotional conversations
@@ -25,19 +26,25 @@ For more details, refer to the [IEMOCAP dataset documentation](https://sail.usc.
 
 **Core Challenge:** How to effectively combine features from different modalities with different temporal structures.
 
+---
 ## Model Architecture
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/iemocap/iemocap_model_architecture.png" title="Fusion-Based Multimodal Architecture for Emotion Recognition" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/iemocap/iemocap_model_architecture.png" title="Fusion-Based Multimodal Architecture for Emotion Recognition" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+<footer>
+  <p class="text-center">Figure: Fusion-Based Multimodal Architecture for Emotion Recognition</p>
+</footer>
 
 - The architecture performs multimodal emotion classification using lexical (BERT), acoustic (VGGish), and visual (
   ResNet) features from the IEMOCAP dataset.
 - Temporal mean pooling is applied to align modalities, followed by early or late fusion strategies to combine
   representations.
 - A neural network classifier predicts one of four emotion classes: Happiness, Anger, Sadness, or Neutral.
+
+---
 
 ## Methodology
 
@@ -188,6 +195,8 @@ def subject_independent_cv(features, labels, speakers, n_folds=5):
 
 Evaluated using 5-fold subject-independent cross-validation:
 
+---
+
 | Method       | F1-Score |
 |--------------|----------|
 | Early Fusion | 62.56%   |
@@ -195,6 +204,8 @@ Evaluated using 5-fold subject-independent cross-validation:
 | Late Fusion  | 54.31%   |
 | Audio Only   | 53.27%   |
 | Visual Only  | 38.39%   |
+
+---
 
 **Key Findings:**
 
@@ -212,6 +223,7 @@ Evaluated using 5-fold subject-independent cross-validation:
 </div>
 The above figure illustrates the performance comparison across different methods, highlighting the superiority of early fusion.
 
+<br>
 --- 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -223,8 +235,8 @@ The above figure shows the individual contributions of each modality to the over
 ## REFERENCES
 
 - [IEMOCAP Dataset](https://sail.usc.edu/iemocap/)
-- GRATITUDE TO [Prof. Mohammad Soleymani](https://soleymani.org/) for providing the dataset and guidance on the project.
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.liquid) for model building and training utilities.
+- GRATITUDE TO [Prof. Mohammad Soleymani](https://viterbi.usc.edu/directory/faculty/Soleymani/Mohammad/) for providing the dataset and guidance on the project.
+- [PyTorch Documentation](https://docs.pytorch.org/docs/stable/index.html) for model building and training utilities.
 - Hugging Face's [Transformers](https://huggingface.co/transformers/) library for BERT embeddings.
 
 ## Future Directions
