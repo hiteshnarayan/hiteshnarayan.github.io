@@ -48,7 +48,7 @@ For more details, refer to the [IEMOCAP dataset documentation](https://sail.usc.
 
 ## Methodology
 
-Our approach follows a systematic three-stage pipeline: unimodal classification, multimodal fusion, and neural network
+My approach follows a systematic three-stage pipeline: unimodal classification, multimodal fusion, and neural network
 classification.
 
 ### Stage 1: Unimodal Feature Processing
@@ -76,7 +76,7 @@ def temporal_pooling(features, method='mean'):
 
 ```
 
-Next, we implement unimodal classifiers for each modality using a simple feedforward neural network architecture.Each
+Next, implement unimodal classifiers for each modality using a simple feedforward neural network architecture.Each
 classifier is trained independently on its respective modality features.
 
 #### Unimodal Neural Network Architecture:
@@ -99,7 +99,9 @@ class ModalityClassifier(nn.Module):
 
 ### Stage 2: Multimodal Fusion Strategies
 
-After establishing unimodal baselines, we implement two fusion approaches to combine information from all modalities:
+After establishing unimodal baselines, the next step is to explore different fusion strategies to combine the modalities effectively. 
+This project implements two fusion strategies: early fusion (feature-level) and late fusion (decision-level).
+
 
 #### Early Fusion (Feature-Level):
 
@@ -163,6 +165,8 @@ def late_fusion_majority_vote(visual_preds, acoustic_preds, lexical_preds):
 
 ### Stage 3: Training and Evaluation Pipeline
 
+The final stage involves training the multimodal model and evaluating its performance using subject-independent cross-validation.
+This ensures that the model generalizes well across different speakers in the IEMOCAP dataset. 
 #### Cross-Validation Setup:
 
 ```python
